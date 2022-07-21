@@ -1,0 +1,25 @@
+.signBtn{
+    margin: 15px;
+    height: 30px;
+    width: 100px;
+    background-color: #99dfff;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    &_large{
+        width: 150px;
+    }
+    &:active{
+        background-color:#c0e8fb;
+    }
+}
+
+
+.userName{
+    font-size: 20px;
+    font-style: italic;
+}
